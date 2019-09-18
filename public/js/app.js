@@ -1,4 +1,4 @@
-const weatherForm = document.querySelector('form') //form is from index.hbs file
+//const weatherForm = document.querySelector('form') //form is from index.hbs file
 
 const search = document.querySelector('input')
 
