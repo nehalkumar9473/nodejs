@@ -5,6 +5,8 @@ const express = require('express')
 
 const app = express()
 
+const port = process.env.PORT || 3000
+
 app.set('view engine', 'ejs')
 app.engine('ejs', require('ejs').renderFile);
 
@@ -62,6 +64,6 @@ app.get('/info', function(req, res) {
     })
 })
 
-app.listen(3000, function() {
-    console.log('server is running at 3000')
+app.listen(port, function() {
+    console.log('server is running at port')
 })
