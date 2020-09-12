@@ -12,7 +12,7 @@
         "handlebars": "file:handlebars",
         "hbs": "^4.0.4",
         "my-awesome-greeter": "^1.0.2",
-        "node-fetch": "^2.6.0",
+        "node-fetch": "^2.6.1",
         "request": "^2.88.0",
         "validator": "^11.1.0",
         "yargs": "^14.0.0"
